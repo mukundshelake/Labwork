@@ -149,7 +149,7 @@ Point: Points_Outside_Slot(ID:20, From 5 Pts.)
 Distance: Slot_Depth(ID:21) between Points_Inside_Slot(ID:19) and Points_Outside_Slot(ID:20)
            DZ =         0.784070                                                                                
 
-Line: BE1(ID:22, From 274 Pts.) 
+Line: BE5(ID:22, From 274 Pts.) 
      Coord. X =       -10.236534                                                                                
      Coord. Y =        83.444068                                                                                
      Coord. Z =        -0.106313                                                                                
@@ -159,7 +159,7 @@ Line: BE1(ID:22, From 274 Pts.)
       Z-Angle =          89.9442                                                                                
     Straight. =                                         0.144609                                                
 
-Line: BE2(ID:23, From 58 Pts.) 
+Line: BE4(ID:23, From 58 Pts.) 
      Coord. X =        74.585894                                                                                
      Coord. Y =        37.901474                                                                                
      Coord. Z =        -0.167602                                                                                
@@ -179,7 +179,7 @@ Line: BE3(ID:24, From 127 Pts.)
       Z-Angle =          89.9961                                                                                
     Straight. =                                         0.143912                                                
 
-Line: BE4(ID:25, From 144 Pts.) 
+Line: BE2(ID:25, From 144 Pts.) 
      Coord. X =         5.597424                                                                                
      Coord. Y =       -83.409568                                                                                
      Coord. Z =        -0.130440                                                                                
@@ -189,7 +189,7 @@ Line: BE4(ID:25, From 144 Pts.)
       Z-Angle =          90.0157                                                                                
     Straight. =                                         0.134702                                                
 
-Line: BE5(ID:26, From 184 Pts.) 
+Line: BE1(ID:26, From 184 Pts.) 
      Coord. X =       -69.565773                                                                                
      Coord. Y =       -46.351892                                                                                
      Coord. Z =        -0.133786                                                                                
