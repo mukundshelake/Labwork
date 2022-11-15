@@ -7,7 +7,7 @@ Output: A python dictionary with all the relevant data concentrated.
 
 Helper library: Auxillary.py
 Status: 
-To Do:
+To Do: Correct the maximum inscribed circle calculation.
 """
 from config.Auxillary import dist,maxInsc,find_line,shift,check,Features, dist2D, pointLineDist
 
