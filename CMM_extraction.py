@@ -168,7 +168,7 @@ worksheet = workbook.add_worksheet()
 row = 5
 col = 5
 for i in range(len(baseplateList)):
-    bplate = 'Baseplate_'+str(i+1)
+    bplate = baseplateList[i]
     worksheet.write(row,col+i,Data[bplate]['Flatness_Plane']['Flatness'])
     worksheet.write(row+1,col+i,Data[bplate]['Hole']['Diameter'])
     worksheet.write(row+2,col+i,Data[bplate]['Hole_Depth']['DZ'])
