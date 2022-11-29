@@ -61,55 +61,22 @@ def pointLineDist(pt, ptOnLine, LineSlope):
   return round(d,3)
 
 
-def maxInsc(center, ptsOnLines, thetas):
-  print(center)
-  print(ptsOnLines)
-  print(thetas)
+def Insc(center, ptsOnLines, thetas):
   delta = 0.001
-  steps = 2000
+  steps = 1000
   R = 50.0
-  D = 100.0
-  maxCenter = center
   for i in range(steps):
     for j in range(steps):
-      center = [center[0] + (i-steps/2)*delta, center[1] + (j-steps/2)*delta] 
-      for k in range(len(thetas)):
-        d = pointLineDist(center, ptsOnLines[k], thetas[k])
-        # print(d)
-        if d < D:
+      Center = [center[0]+(i-steps/2)*delta, center[1]+(j-steps/2)*delta]
+      D = 100.0
+      for k in range(6):
+        d = pointLineDist(Center, ptsOnLines[k], thetas[k])
+        if d<D:
           D = d
-          # print(d,D)
       if D > R:
         R = D
-        # print(d,D,R)
-        maxCenter = [round(center[0],3),round(center[1],3)]
-  width = round(2.0*R,3)
-  return maxCenter, width
-  
-##################################################
-
-def dist(thetas,ptsOnLine,point):
-  Ds = []
-  for i in range(len(thetas)):
-    d= distance(point[0],point[1],math.tan(math.radians(thetas[i])),-1,ptsOnLine[i][1]-math.tan(math.radians(thetas[i]))*ptsOnLine[i][0])
-    Ds.append(d)
-  return (min(Ds))
-
-
-def max_insc(thetas,ptsOnLine):
-    Center=[80,0]
-    delta=0.001
-    steps=1000
-    R = 50
-    for i in range(steps):
-      for j in range(steps):
-        point = [80.0+(i-steps/2)*delta,0.0+(j-steps/2)*delta]
-        X = dist(thetas,ptsOnLine,point)
-        print(X)
-        if X > R:
-          R = X
-          Center = point
-    return(Center, R)   
+        maxCenter = [round(Center[0],3),round(Center[1],3)]
+  return maxCenter, round(2.0*R,3)
 
 
 
