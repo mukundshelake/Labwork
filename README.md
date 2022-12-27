@@ -15,5 +15,5 @@ git clone https://github.com/mukundshelake/Labwork.git
 2. Place the main folder inside /inputs.
 3. Run the CMM_extraction tool by,
 ```
-python CMM_extraction.py inputs/{Main folder} 
+python CMM_extraction.py --folder inputs/{Main folder} 
 ```
