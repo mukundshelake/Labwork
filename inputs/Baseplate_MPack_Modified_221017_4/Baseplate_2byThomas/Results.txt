@@ -1,0 +1,589 @@
+
+         Element          Actual         Nominal         Deviat.         Up Tol.        Low Tol.       Pass/Fail
+                                                        (TP Dev)        (TP Tol)                                
+Plane: Flatness_Plane(ID:1, From 54 Pts.) 
+   Angle (XY) =         260.4741                                                                                
+      X-Angle =          90.0034                                                                                
+      Y-Angle =          90.0203                                                                                
+      Z-Angle =           0.0206                                                                                
+     Flatness =                                         0.144827                                                
+
+Circle: Hole(ID:2, From 136 Pts.) 
+     Coord. X =         0.002913                                                                                
+     Coord. Y =         0.011135                                                                                
+     Coord. Z =        -0.168600                                                                                
+     Diameter =         2.992052                                                                                
+       Radius =         1.496026                                                                                
+    Circular. =                                         0.194332                                                
+
+Ellipse: Slot(ID:3, From 51 Pts.) 
+     Coord. X =        -0.002290                                                                                
+     Coord. Y =        74.973019                                                                                
+     Coord. Z =        -0.026400                                                                                
+  Angle (XY)2 =          88.6472                                                                                
+     X-Angle2 =          88.6472                                                                                
+     Y-Angle2 =           1.3528                                                                                
+     Z-Angle2 =          90.0000                                                                                
+    Diameter1 =         3.306124                                                                                
+    Diameter2 =         3.057991                                                                                
+
+Circle: Notch1(ID:4, From 77 Pts.) 
+     Coord. X =       -91.626579                                                                                
+     Coord. Y =        -4.498567                                                                                
+     Coord. Z =         0.592872                                                                                
+     Diameter =         2.001162                                                                                
+       Radius =         1.000581                                                                                
+    Circular. =                                         0.116580                                                
+
+Circle: Notch2(ID:5, From 89 Pts.) 
+     Coord. X =       -49.855842                                                                                
+     Coord. Y =       -77.010310                                                                                
+     Coord. Z =         0.494172                                                                                
+     Diameter =         2.056444                                                                                
+       Radius =         1.028222                                                                                
+    Circular. =                                         0.114182                                                
+
+Circle: Notch3(ID:6, From 72 Pts.) 
+     Coord. X =        49.792605                                                                                
+     Coord. Y =       -77.047015                                                                                
+     Coord. Z =         0.494572                                                                                
+     Diameter =         2.019727                                                                                
+       Radius =         1.009863                                                                                
+    Circular. =                                         0.079375                                                
+
+Circle: Notch4(ID:7, From 68 Pts.) 
+     Coord. X =        91.717695                                                                                
+     Coord. Y =        -4.649484                                                                                
+     Coord. Z =         0.535972                                                                                
+     Diameter =         2.033466                                                                                
+       Radius =         1.016733                                                                                
+    Circular. =                                         0.148655                                                
+
+Circle: Notch5(ID:8, From 114 Pts.) 
+     Coord. X =        41.890068                                                                                
+     Coord. Y =        81.711955                                                                                
+     Coord. Z =         0.594072                                                                                
+     Diameter =         2.030097                                                                                
+       Radius =         1.015049                                                                                
+    Circular. =                                         0.097986                                                
+
+Circle: Notch6(ID:9, From 100 Pts.) 
+     Coord. X =       -41.789985                                                                                
+     Coord. Y =        81.764754                                                                                
+     Coord. Z =         0.524272                                                                                
+     Diameter =         2.039787                                                                                
+       Radius =         1.019894                                                                                
+    Circular. =                                         0.112379                                                
+
+Circle: MB1(ID:10, From 50 Pts.) 
+     Coord. X =       -96.655410                                                                                
+     Coord. Y =         0.104218                                                                                
+     Coord. Z =        -0.350309                                                                                
+     Diameter =         5.585484                                                                                
+       Radius =         2.792742                                                                                
+    Circular. =                                         0.020381                                                
+
+Circle: MB2(ID:11, From 43 Pts.) 
+     Coord. X =       -48.322795                                                                                
+     Coord. Y =       -83.563601                                                                                
+     Coord. Z =        -0.152600                                                                                
+     Diameter =         5.400530                                                                                
+       Radius =         2.700265                                                                                
+    Circular. =                                         0.091229                                                
+
+Circle: MB3(ID:12, From 10 Pts.) 
+     Coord. X =        48.300257                                                                                
+     Coord. Y =       -83.685080                                                                                
+     Coord. Z =        -0.266200                                                                                
+     Diameter =         5.529304                                                                                
+       Radius =         2.764652                                                                                
+    Circular. =                                         0.007537                                                
+
+Circle: MB4(ID:13, From 49 Pts.) 
+     Coord. X =        96.683798                                                                                
+     Coord. Y =        -0.015468                                                                                
+     Coord. Z =        -0.510909                                                                                
+     Diameter =         5.562100                                                                                
+       Radius =         2.781050                                                                                
+    Circular. =                                         0.027968                                                
+
+Circle: MB5(ID:14, From 5 Pts.) 
+     Coord. X =        39.430655                                                                                
+     Coord. Y =        81.175881                                                                                
+     Coord. Z =        -0.194300                                                                                
+     Diameter =        13.115147                                                                                
+       Radius =         6.557574                                                                                
+    Circular. =                                         0.003866                                                
+
+Circle: MB6(ID:15, From 57 Pts.) 
+     Coord. X =       -48.324539                                                                                
+     Coord. Y =        83.827397                                                                                
+     Coord. Z =         0.428000                                                                                
+     Diameter =         5.693412                                                                                
+       Radius =         2.846706                                                                                
+    Circular. =                                         0.021268                                                
+
+Point: Points_Inside_Hole(ID:16, From 5 Pts.) 
+     Coord. X =        -0.001676                                                                                
+     Coord. Y =         0.054366                                                                                
+     Coord. Z =        -0.173660                                                                                
+
+Point: Points_Outside_Hole(ID:17, From 5 Pts.) 
+     Coord. X =        -0.382117                                                                                
+     Coord. Y =         0.358759                                                                                
+     Coord. Z =         0.567574                                                                                
+
+Distance: Hole_Depth(ID:18) between Points_Inside_Hole(ID:16) and Points_Outside_Hole(ID:17)
+           DZ =         0.741234                                                                                
+
+Point: Points_Inside_Slot(ID:19, From 5 Pts.) 
+     Coord. X =         0.014935                                                                                
+     Coord. Y =        74.999540                                                                                
+     Coord. Z =        -0.094029                                                                                
+
+Point: Points_Outside_Slot(ID:20, From 5 Pts.) 
+     Coord. X =        -0.392474                                                                                
+     Coord. Y =        75.305455                                                                                
+     Coord. Z =         0.625525                                                                                
+
+Distance: Slot_Depth(ID:21) between Points_Inside_Slot(ID:19) and Points_Outside_Slot(ID:20)
+           DZ =         0.719554                                                                                
+
+Line: BE5(ID:22, From 191 Pts.) 
+     Coord. X =       -11.900962                                                                                
+     Coord. Y =        83.463115                                                                                
+     Coord. Z =         0.534236                                                                                
+   Angle (XY) =           0.0111                                                                                
+      X-Angle =           0.1645                                                                                
+      Y-Angle =          89.9889                                                                                
+      Z-Angle =          89.8359                                                                                
+    Straight. =                                         0.348496                                                
+
+Line: BE4(ID:23, From 89 Pts.) 
+     Coord. X =        70.029397                                                                                
+     Coord. Y =        45.657523                                                                                
+     Coord. Z =         0.511785                                                                                
+   Angle (XY) =         299.9695                                                                                
+      X-Angle =          60.0305                                                                                
+      Y-Angle =         150.0304                                                                                
+      Z-Angle =          90.0859                                                                                
+    Straight. =                                         0.212966                                                
+
+Line: BE3(ID:24, From 174 Pts.) 
+     Coord. X =        75.030312                                                                                
+     Coord. Y =       -37.062003                                                                                
+     Coord. Z =         0.002234                                                                                
+   Angle (XY) =         240.0156                                                                                
+      X-Angle =         119.9839                                                                                
+      Y-Angle =         150.0139                                                                                
+      Z-Angle =          90.3323                                                                                
+    Straight. =                                         0.980265                                                
+
+Line: BE2(ID:25, From 85 Pts.) 
+     Coord. X =        13.354179                                                                                
+     Coord. Y =       -83.519895                                                                                
+     Coord. Z =        -0.100161                                                                                
+   Angle (XY) =         359.9857                                                                                
+      X-Angle =           0.1060                                                                                
+      Y-Angle =          90.0143                                                                                
+      Z-Angle =          90.1050                                                                                
+    Straight. =                                         1.015149                                                
+
+Line: BE1(ID:26, From 121 Pts.) 
+     Coord. X =       -58.630382                                                                                
+     Coord. Y =       -65.357965                                                                                
+     Coord. Z =         0.435796                                                                                
+   Angle (XY) =         120.0411                                                                                
+      X-Angle =         120.0407                                                                                
+      Y-Angle =          30.0425                                                                                
+      Z-Angle =          90.3008                                                                                
+    Straight. =                                         1.180552                                                
+
+Line: BE6(ID:27, From 121 Pts.) 
+     Coord. X =       -79.896338                                                                                
+     Coord. Y =        28.577893                                                                                
+     Coord. Z =         0.502640                                                                                
+   Angle (XY) =          59.9836                                                                                
+      X-Angle =          59.9836                                                                                
+      Y-Angle =          30.0164                                                                                
+      Z-Angle =          89.9696                                                                                
+    Straight. =                                         0.092070                                                
+
+Circle: MB5_Modified(ID:28, From 58 Pts.) 
+     Coord. X =        48.311184                                                                                
+     Coord. Y =        83.622830                                                                                
+     Coord. Z =         0.425291                                                                                
+     Diameter =         5.409635                                                                                
+       Radius =         2.704818                                                                                
+    Circular. =                                         0.045053                                                
+
+
+
+         Element          Actual         Nominal         Deviat.         Up Tol.        Low Tol.       Pass/Fail
+                                                        (TP Dev)        (TP Tol)                                
+Circle: F1(ID:1, From 166 Pts.) 
+     Coord. X =         0.000353                                                                                
+     Coord. Y =        79.991619                                                                                
+     Coord. Z =         0.029000                                                                                
+     Diameter =         0.180339                                                                                
+       Radius =         0.090169                                                                                
+    Circular. =                                         0.010929                                                
+
+Circle: F2(ID:2, From 67 Pts.) 
+     Coord. X =        69.271610                                                                                
+     Coord. Y =        40.008370                                                                                
+     Coord. Z =         0.162100                                                                                
+     Diameter =         0.182665                                                                                
+       Radius =         0.091332                                                                                
+    Circular. =                                         0.051451                                                
+
+INVALID FEATURE: F3(ID:3, From 0 Pts.) 
+         ****  
+         ****  
+         ****  
+         ****  
+         ****  
+         ****  
+
+Circle: F4(ID:4, From 145 Pts.) 
+     Coord. X =        -0.004524                                                                                
+     Coord. Y =       -79.993014                                                                                
+     Coord. Z =        -0.041500                                                                                
+     Diameter =         0.119612                                                                                
+       Radius =         0.059806                                                                                
+    Circular. =                                         0.024317                                                
+
+Circle: F5(ID:5, From 145 Pts.) 
+     Coord. X =       -69.272627                                                                                
+     Coord. Y =       -39.999499                                                                                
+     Coord. Z =         0.115600                                                                                
+     Diameter =         0.178426                                                                                
+       Radius =         0.089213                                                                                
+    Circular. =                                         0.045600                                                
+
+Circle: F6(ID:6, From 3 Pts.) 
+     Coord. X =       -69.339859                                                                                
+     Coord. Y =        40.195571                                                                                
+     Coord. Z =         0.201200                                                                                
+     Diameter =         0.222072                                                                                
+       Radius =         0.111036                                                                                
+    Circular. =                                         0.000000                                                
+
+Circle: F7(ID:7, From 147 Pts.) 
+     Coord. X =        46.079941                                                                                
+     Coord. Y =        79.828316                                                                                
+     Coord. Z =         0.110900                                                                                
+     Diameter =         0.178158                                                                                
+       Radius =         0.089079                                                                                
+    Circular. =                                         0.014916                                                
+
+Circle: F8(ID:8, From 34 Pts.) 
+     Coord. X =        92.135433                                                                                
+     Coord. Y =         0.016594                                                                                
+     Coord. Z =         0.172600                                                                                
+     Diameter =         0.182353                                                                                
+       Radius =         0.091176                                                                                
+    Circular. =                                         0.070811                                                
+
+Circle: F9(ID:9, From 125 Pts.) 
+     Coord. X =        46.084060                                                                                
+     Coord. Y =       -79.831666                                                                                
+     Coord. Z =        -0.038300                                                                                
+     Diameter =         0.179619                                                                                
+       Radius =         0.089810                                                                                
+    Circular. =                                         0.016398                                                
+
+Circle: F10(ID:10, From 171 Pts.) 
+     Coord. X =       -46.065628                                                                                
+     Coord. Y =       -79.849107                                                                                
+     Coord. Z =         0.045900                                                                                
+     Diameter =         0.179310                                                                                
+       Radius =         0.089655                                                                                
+    Circular. =                                         0.028644                                                
+
+Circle: F11(ID:11, From 121 Pts.) 
+     Coord. X =       -92.160060                                                                                
+     Coord. Y =        -0.005357                                                                                
+     Coord. Z =         0.152600                                                                                
+     Diameter =         0.173357                                                                                
+       Radius =         0.086678                                                                                
+    Circular. =                                         0.009743                                                
+
+Circle: F12(ID:12, From 11 Pts.) 
+     Coord. X =       -46.080014                                                                                
+     Coord. Y =        79.795407                                                                                
+     Coord. Z =         0.298400                                                                                
+     Diameter =         0.146363                                                                                
+       Radius =         0.073182                                                                                
+    Circular. =                                         0.005311                                                
+
+Circle: F13(ID:13, From 75 Pts.) 
+     Coord. X =        50.864585                                                                                
+     Coord. Y =        77.717230                                                                                
+     Coord. Z =         0.062100                                                                                
+     Diameter =         0.248496                                                                                
+       Radius =         0.124248                                                                                
+    Circular. =                                         0.020563                                                
+
+Circle: F14(ID:14, From 42 Pts.) 
+     Coord. X =        92.726493                                                                                
+     Coord. Y =         5.275602                                                                                
+     Coord. Z =         0.140100                                                                                
+     Diameter =         0.234311                                                                                
+       Radius =         0.117155                                                                                
+    Circular. =                                         0.012648                                                
+
+Circle: F15(ID:15, From 74 Pts.) 
+     Coord. X =        41.814240                                                                                
+     Coord. Y =       -82.905167                                                                                
+     Coord. Z =        -0.117400                                                                                
+     Diameter =         0.250328                                                                                
+       Radius =         0.125164                                                                                
+    Circular. =                                         0.024844                                                
+
+Circle: F16(ID:16, From 68 Pts.) 
+     Coord. X =       -41.848967                                                                                
+     Coord. Y =       -82.919598                                                                                
+     Coord. Z =        -0.027300                                                                                
+     Diameter =         0.232842                                                                                
+       Radius =         0.116421                                                                                
+    Circular. =                                         0.019393                                                
+
+Circle: F17(ID:17, From 61 Pts.) 
+     Coord. X =       -92.725254                                                                                
+     Coord. Y =         5.230943                                                                                
+     Coord. Z =         0.122500                                                                                
+     Diameter =         0.239318                                                                                
+       Radius =         0.119659                                                                                
+    Circular. =                                         0.023753                                                
+
+Circle: F18(ID:18, From 94 Pts.) 
+     Coord. X =       -50.949059                                                                                
+     Coord. Y =        77.608192                                                                                
+     Coord. Z =        -0.050400                                                                                
+     Diameter =         0.221863                                                                                
+       Radius =         0.110931                                                                                
+    Circular. =                                         0.019489                                                
+
+Circle: F19(ID:19, From 86 Pts.) 
+     Coord. X =         0.000482                                                                                
+     Coord. Y =        -0.003478                                                                                
+     Coord. Z =         0.041300                                                                                
+     Diameter =         0.179047                                                                                
+       Radius =         0.089524                                                                                
+    Circular. =                                         0.030095                                                
+
+Line: FE5(ID:20, From 226 Pts.) 
+     Coord. X =       -13.439203                                                                                
+     Coord. Y =        83.428576                                                                                
+     Coord. Z =         0.077196                                                                                
+   Angle (XY) =         359.9904                                                                                
+      X-Angle =           0.0096                                                                                
+      Y-Angle =          90.0096                                                                                
+      Z-Angle =          90.0009                                                                                
+    Straight. =                                         0.499051                                                
+
+Line: FE6(ID:21, From 366 Pts.) 
+     Coord. X =        73.473415                                                                                
+     Coord. Y =        39.723048                                                                                
+     Coord. Z =         0.075571                                                                                
+   Angle (XY) =         299.9810                                                                                
+      X-Angle =          60.0190                                                                                
+      Y-Angle =         150.0190                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.351206                                                
+
+Line: FE1(ID:22, From 197 Pts.) 
+     Coord. X =        80.510225                                                                                
+     Coord. Y =       -27.592821                                                                                
+     Coord. Z =         0.033900                                                                                
+   Angle (XY) =         239.9963                                                                                
+      X-Angle =         120.0037                                                                                
+      Y-Angle =         149.9963                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.287100                                                
+
+Line: FE2(ID:23, From 136 Pts.) 
+     Coord. X =       -11.174275                                                                                
+     Coord. Y =       -83.556252                                                                                
+     Coord. Z =        -0.033734                                                                                
+   Angle (XY) =         179.9886                                                                                
+      X-Angle =         179.7894                                                                                
+      Y-Angle =          89.9886                                                                                
+      Z-Angle =          89.7897                                                                                
+    Straight. =                                         0.543053                                                
+
+Line: FE3(ID:24, From 312 Pts.) 
+     Coord. X =       -75.784703                                                                                
+     Coord. Y =       -35.799932                                                                                
+     Coord. Z =         0.086547                                                                                
+   Angle (XY) =         119.9753                                                                                
+      X-Angle =         119.9753                                                                                
+      Y-Angle =          29.9753                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.251229                                                
+
+Line: FE4(ID:25, From 319 Pts.) 
+     Coord. X =       -74.433364                                                                                
+     Coord. Y =        37.951444                                                                                
+     Coord. Z =         0.086608                                                                                
+   Angle (XY) =          60.0041                                                                                
+      X-Angle =          60.0041                                                                                
+      Y-Angle =          29.9959                                                                                
+      Z-Angle =          89.9999                                                                                
+    Straight. =                                         0.063298                                                
+
+Line: KE1(ID:26, From 333 Pts.) 
+     Coord. X =        75.774159                                                                                
+     Coord. Y =       -34.637337                                                                                
+     Coord. Z =         0.116480                                                                                
+   Angle (XY) =         240.0002                                                                                
+      X-Angle =         119.9998                                                                                
+      Y-Angle =         150.0002                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.345777                                                
+
+Line: KE2(ID:27, From 97 Pts.) 
+     Coord. X =        22.835270                                                                                
+     Coord. Y =       -82.956058                                                                                
+     Coord. Z =        -0.000605                                                                                
+   Angle (XY) =         180.0156                                                                                
+      X-Angle =         179.6555                                                                                
+      Y-Angle =          90.0156                                                                                
+      Z-Angle =          89.6559                                                                                
+    Straight. =                                         0.417561                                                
+
+Line: KE3(ID:28, From 315 Pts.) 
+     Coord. X =       -77.928952                                                                                
+     Coord. Y =       -30.941373                                                                                
+     Coord. Z =         0.205772                                                                                
+   Angle (XY) =         119.9988                                                                                
+      X-Angle =         119.9988                                                                                
+      Y-Angle =          29.9989                                                                                
+      Z-Angle =          90.0720                                                                                
+    Straight. =                                         0.054405                                                
+
+Line: KE4(ID:29, From 225 Pts.) 
+     Coord. X =       -81.885547                                                                                
+     Coord. Y =        24.068864                                                                                
+     Coord. Z =         0.223233                                                                                
+   Angle (XY) =          60.0039                                                                                
+      X-Angle =          60.0040                                                                                
+      Y-Angle =          29.9961                                                                                
+      Z-Angle =          89.9588                                                                                
+    Straight. =                                         0.081650                                                
+
+Line: KE5(ID:30, From 152 Pts.) 
+     Coord. X =        -1.116160                                                                                
+     Coord. Y =        82.958400                                                                                
+     Coord. Z =         0.232207                                                                                
+   Angle (XY) =           0.0155                                                                                
+      X-Angle =           0.1250                                                                                
+      Y-Angle =          89.9845                                                                                
+      Z-Angle =          89.8759                                                                                
+    Straight. =                                         0.302787                                                
+
+Line: KE6(ID:31, From 187 Pts.) 
+     Coord. X =        74.825909                                                                                
+     Coord. Y =        36.319220                                                                                
+     Coord. Z =         0.252876                                                                                
+   Angle (XY) =         300.0063                                                                                
+      X-Angle =          59.9937                                                                                
+      Y-Angle =         149.9935                                                                                
+      Z-Angle =          90.1076                                                                                
+    Straight. =                                         0.129319                                                
+
+Point: C1_outside_pts(ID:32, From 4 Pts.) 
+     Coord. X =        92.821241                                                                                
+     Coord. Y =         5.455466                                                                                
+     Coord. Z =         0.130988                                                                                
+
+Point: C1_inside_pts(ID:33, From 3 Pts.) 
+     Coord. X =        92.919363                                                                                
+     Coord. Y =         5.410202                                                                                
+     Coord. Z =         0.038457                                                                                
+
+Distance: C1_Depth(ID:34) between C1_inside_pts(ID:33) and C1_outside_pts(ID:32)
+           DZ =         0.092531                                                                                
+
+Point: C2_outside_pts(ID:35, From 4 Pts.) 
+     Coord. X =        41.769028                                                                                
+     Coord. Y =       -83.192654                                                                                
+     Coord. Z =        -0.026442                                                                                
+
+Point: C2_inside_pts(ID:36, From 3 Pts.) 
+     Coord. X =        41.912458                                                                                
+     Coord. Y =       -83.222125                                                                                
+     Coord. Z =        -0.111727                                                                                
+
+Distance: C2_Depth(ID:37) between C2_inside_pts(ID:36) and C2_outside_pts(ID:35)
+           DZ =         0.085285                                                                                
+
+Point: C3_outside_pts(ID:38, From 4 Pts.) 
+     Coord. X =       -41.779334                                                                                
+     Coord. Y =       -83.211863                                                                                
+     Coord. Z =         0.050680                                                                                
+
+Point: C3_inside_pts(ID:39, From 3 Pts.) 
+     Coord. X =       -41.801629                                                                                
+     Coord. Y =       -83.233007                                                                                
+     Coord. Z =        -0.029753                                                                                
+
+Distance: C3_Depth(ID:40) between C3_inside_pts(ID:39) and C3_outside_pts(ID:38)
+           DZ =         0.080433                                                                                
+
+Point: C4_outside_pts(ID:41, From 4 Pts.) 
+     Coord. X =       -92.926064                                                                                
+     Coord. Y =         5.409105                                                                                
+     Coord. Z =         0.198392                                                                                
+
+Point: C4_inside_pts(ID:42, From 3 Pts.) 
+     Coord. X =       -93.002551                                                                                
+     Coord. Y =         5.387642                                                                                
+     Coord. Z =         0.098426                                                                                
+
+Distance: C4_Depth(ID:43) between C4_inside_pts(ID:42) and C4_outside_pts(ID:41)
+           DZ =         0.099966                                                                                
+
+Point: C5_outside_pts(ID:44, From 4 Pts.) 
+     Coord. X =       -51.136448                                                                                
+     Coord. Y =        77.812768                                                                                
+     Coord. Z =         0.050151                                                                                
+
+Point: C5_inside_pts(ID:45, From 3 Pts.) 
+     Coord. X =       -51.197689                                                                                
+     Coord. Y =        77.796554                                                                                
+     Coord. Z =        -0.048079                                                                                
+
+Distance: C5_Depth(ID:46) between C5_inside_pts(ID:45) and C5_outside_pts(ID:44)
+           DZ =         0.098230                                                                                
+
+Point: C6_outside_pts(ID:47, From 4 Pts.) 
+     Coord. X =        50.981493                                                                                
+     Coord. Y =        77.879651                                                                                
+     Coord. Z =         0.128923                                                                                
+
+Point: C6_inside_pts(ID:48, From 3 Pts.) 
+     Coord. X =        51.039114                                                                                
+     Coord. Y =        77.892715                                                                                
+     Coord. Z =         0.035856                                                                                
+
+Distance: C6_Depth(ID:49) between C6_inside_pts(ID:48) and C6_outside_pts(ID:47)
+           DZ =         0.093068                                                                                
+
+Circle: F3_Modified(ID:50, From 159 Pts.) 
+     Coord. X =        69.268574                                                                                
+     Coord. Y =       -39.987703                                                                                
+     Coord. Z =        -0.009300                                                                                
+     Diameter =         0.174549                                                                                
+       Radius =         0.087274                                                                                
+    Circular. =                                         0.009531                                                
+
+Circle: F12_Modified(ID:51, From 121 Pts.) 
+     Coord. X =       -46.076054                                                                                
+     Coord. Y =        79.795260                                                                                
+     Coord. Z =        -0.019500                                                                                
+     Diameter =         0.175387                                                                                
+       Radius =         0.087694                                                                                
+    Circular. =                                         0.007664                                                
+

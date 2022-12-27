@@ -1,0 +1,22 @@
+
+         Element          Actual         Nominal         Deviat.         Up Tol.        Low Tol.       Pass/Fail
+                                                        (TP Dev)        (TP Tol)                                
+Circle: Origin(ID:1, From 91 Pts.) 
+     Coord. X =       133.561614                                                                                
+     Coord. Y =       105.683194                                                                                
+     Coord. Z =         3.230328                                                                                
+     Diameter =         3.112374                                                                                
+       Radius =         1.556187                                                                                
+    Circular. =                                         0.034421                                                
+
+Ellipse: Y_Axis(ID:2, From 192 Pts.) 
+     Coord. X =       131.847201                                                                                
+     Coord. Y =       180.608510                                                                                
+     Coord. Z =         3.145228                                                                                
+  Angle (XY)2 =          89.8999                                                                                
+     X-Angle2 =          89.8999                                                                                
+     Y-Angle2 =           0.1001                                                                                
+     Z-Angle2 =          90.0000                                                                                
+    Diameter1 =         3.410207                                                                                
+    Diameter2 =         3.263225                                                                                
+

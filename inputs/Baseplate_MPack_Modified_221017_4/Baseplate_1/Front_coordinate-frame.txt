@@ -1,0 +1,19 @@
+
+         Element          Actual         Nominal         Deviat.         Up Tol.        Low Tol.       Pass/Fail
+                                                        (TP Dev)        (TP Tol)                                
+Circle: Front_origin(ID:1, From 135 Pts.) 
+     Coord. X =        -0.362555                                                                                
+     Coord. Y =        -0.907546                                                                                
+     Coord. Z =        -0.105738                                                                                
+     Diameter =         0.173558                                                                                
+       Radius =         0.086779                                                                                
+    Circular. =                                         0.007554                                                
+
+Circle: front-y-Axis(ID:2, From 159 Pts.) 
+     Coord. X =        -0.615821                                                                                
+     Coord. Y =        79.084179                                                                                
+     Coord. Z =        -0.032738                                                                                
+     Diameter =         0.174825                                                                                
+       Radius =         0.087413                                                                                
+    Circular. =                                         0.010954                                                
+

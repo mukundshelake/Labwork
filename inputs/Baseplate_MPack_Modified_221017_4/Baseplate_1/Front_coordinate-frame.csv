@@ -1,0 +1,13 @@
+FeatureType,FeatureLabel,FeatureID,OutputItem,Actual,Nominal,Deviation,UpperTol,LowerTol,PassFail
+Circle,Front_origin,1,Coord_X,-0.362555,,,,,
+Circle,Front_origin,1,Coord_Y,-0.907546,,,,,
+Circle,Front_origin,1,Coord_Z,-0.105738,,,,,
+Circle,Front_origin,1,Diameter,0.173558,,,,,
+Circle,Front_origin,1,Radius,0.086779,,,,,
+Circle,Front_origin,1,Circularity,,,0.007554,,,
+Circle,front-y-Axis,2,Coord_X,-0.615821,,,,,
+Circle,front-y-Axis,2,Coord_Y,79.084179,,,,,
+Circle,front-y-Axis,2,Coord_Z,-0.032738,,,,,
+Circle,front-y-Axis,2,Diameter,0.174825,,,,,
+Circle,front-y-Axis,2,Radius,0.087413,,,,,
+Circle,front-y-Axis,2,Circularity,,,0.010954,,,

@@ -1,0 +1,238 @@
+
+         Element          Actual         Nominal         Deviat.         Up Tol.        Low Tol.       Pass/Fail
+                                                        (TP Dev)        (TP Tol)                                
+Circle: C1_c(ID:1, From 83 Pts.) 
+     Coord. X =        92.700744                                                                                
+     Coord. Y =         5.246076                                                                                
+     Coord. Z =         0.087000                                                                                
+     Diameter =         0.228792                                                                                
+       Radius =         0.114396                                                                                
+    Circular. =                                         0.021323                                                
+
+Line: C1_x(ID:2, From 15 Pts.) 
+     Coord. X =        -0.021498                                                                                
+     Coord. Y =         0.107268                                                                                
+     Coord. Z =         0.001400                                                                                
+   Angle (XY) =         299.9116                                                                                
+      X-Angle =          60.0884                                                                                
+      Y-Angle =         150.0884                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.005438                                                
+
+Point: C1_L1(ID:3, From 1 Pts.) 
+     Coord. X =        -0.995468                                                                                
+     Coord. Y =         0.031363                                                                                
+     Coord. Z =         0.085542                                                                                
+
+Point: C1_L2(ID:4, From 1 Pts.) 
+     Coord. X =         0.924979                                                                                
+     Coord. Y =         0.036776                                                                                
+     Coord. Z =         0.088468                                                                                
+
+Distance: Distance-1(ID:5) between C1_L1(ID:3) and C1_L2(ID:4)
+           SC =         1.920457                                                                                
+           LC =         1.920454                                                                                
+           DX =         1.920447                                                                                
+           DY =         0.005413                                                                                
+           DZ =         0.002926                                                                                
+
+Point: C1_W(ID:6, From 1 Pts.) 
+     Coord. X =        -0.000556                                                                                
+     Coord. Y =        -0.626220                                                                                
+     Coord. Z =         0.084623                                                                                
+
+Circle: C2_c(ID:7, From 75 Pts.) 
+     Coord. X =        51.042585                                                                                
+     Coord. Y =       -88.070678                                                                                
+     Coord. Z =         0.021700                                                                                
+     Diameter =         0.193115                                                                                
+       Radius =         0.096558                                                                                
+    Circular. =                                         0.007753                                                
+
+Line: C2_x(ID:8, From 35 Pts.) 
+     Coord. X =         0.000619                                                                                
+     Coord. Y =        -0.037466                                                                                
+     Coord. Z =         0.034400                                                                                
+   Angle (XY) =          60.1005                                                                                
+      X-Angle =          60.1005                                                                                
+      Y-Angle =          29.8995                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.002827                                                
+
+Point: C2_L1(ID:9, From 1 Pts.) 
+     Coord. X =        -0.928616                                                                                
+     Coord. Y =        -0.013782                                                                                
+     Coord. Z =         0.119811                                                                                
+
+Point: C2_L2(ID:10, From 1 Pts.) 
+     Coord. X =         0.992843                                                                                
+     Coord. Y =        -0.010524                                                                                
+     Coord. Z =         0.128928                                                                                
+
+Distance: C2_Length(ID:11) between C2_L1(ID:9) and C2_L2(ID:10)
+           SC =         1.921484                                                                                
+           LC =         1.921462                                                                                
+           DX =         1.921459                                                                                
+           DY =         0.003258                                                                                
+           DZ =         0.009117                                                                                
+
+Point: C2_W(ID:12, From 1 Pts.) 
+     Coord. X =        -0.001087                                                                                
+     Coord. Y =         0.637005                                                                                
+     Coord. Z =         0.135304                                                                                
+
+Circle: C3_c(ID:13, From 69 Pts.) 
+     Coord. X =       -83.658043                                                                                
+     Coord. Y =         0.077976                                                                                
+     Coord. Z =         0.042400                                                                                
+     Diameter =         0.282836                                                                                
+       Radius =         0.141418                                                                                
+    Circular. =                                         0.024500                                                
+
+Line: C3_x(ID:14, From 30 Pts.) 
+     Coord. X =        -0.084184                                                                                
+     Coord. Y =        -0.081636                                                                                
+     Coord. Z =        -0.040500                                                                                
+   Angle (XY) =         359.9315                                                                                
+      X-Angle =           0.0685                                                                                
+      Y-Angle =          90.0685                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.004187                                                
+
+Point: C3_L1(ID:15, From 1 Pts.) 
+     Coord. X =        -0.916542                                                                                
+     Coord. Y =        -0.073741                                                                                
+     Coord. Z =         0.078324                                                                                
+
+Point: C3_L2(ID:16, From 1 Pts.) 
+     Coord. X =         0.981655                                                                                
+     Coord. Y =        -0.080504                                                                                
+     Coord. Z =         0.084378                                                                                
+
+Distance: C3_Length(ID:17) between C3_L1(ID:15) and C3_L2(ID:16)
+           SC =         1.898218                                                                                
+           LC =         1.898209                                                                                
+           DX =         1.898197                                                                                
+           DY =        -0.006763                                                                                
+           DZ =         0.006054                                                                                
+
+Point: C3_W(ID:18, From 1 Pts.) 
+     Coord. X =        -0.000923                                                                                
+     Coord. Y =         0.539724                                                                                
+     Coord. Z =         0.089430                                                                                
+
+Circle: C4_c(ID:19, From 83 Pts.) 
+     Coord. X =       -50.969435                                                                                
+     Coord. Y =        88.038909                                                                                
+     Coord. Z =        -0.034300                                                                                
+     Diameter =         0.201760                                                                                
+       Radius =         0.100880                                                                                
+    Circular. =                                         0.019048                                                
+
+Line: C4_x(ID:20, From 25 Pts.) 
+     Coord. X =        -0.040290                                                                                
+     Coord. Y =        -0.025965                                                                                
+     Coord. Z =         0.016500                                                                                
+   Angle (XY) =         240.0916                                                                                
+      X-Angle =         119.9084                                                                                
+      Y-Angle =         150.0916                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.004910                                                
+
+Point: C4_L1(ID:21, From 1 Pts.) 
+     Coord. X =        -0.989150                                                                                
+     Coord. Y =        -0.019328                                                                                
+     Coord. Z =         0.117755                                                                                
+
+Point: C4_L2(ID:22, From 1 Pts.) 
+     Coord. X =         0.928795                                                                                
+     Coord. Y =        -0.020681                                                                                
+     Coord. Z =         0.112493                                                                                
+
+Distance: C4_Length(ID:23) between C4_L1(ID:21) and C4_L2(ID:22)
+           SC =         1.917953                                                                                
+           LC =         1.917945                                                                                
+           DX =         1.917945                                                                                
+           DY =        -0.001353                                                                                
+           DZ =        -0.005262                                                                                
+
+Point: C4_W(ID:24, From 1 Pts.) 
+     Coord. X =        -0.004025                                                                                
+     Coord. Y =         0.645880                                                                                
+     Coord. Z =         0.112357                                                                                
+
+Circle: C5_c(ID:25, From 84 Pts.) 
+     Coord. X =       -83.563860                                                                                
+     Coord. Y =         0.034786                                                                                
+     Coord. Z =         0.170100                                                                                
+     Diameter =         0.172220                                                                                
+       Radius =         0.086110                                                                                
+    Circular. =                                         0.032850                                                
+
+Line: C5_x(ID:26, From 15 Pts.) 
+     Coord. X =        -0.021271                                                                                
+     Coord. Y =         0.000610                                                                                
+     Coord. Z =        -0.019980                                                                                
+   Angle (XY) =         359.8542                                                                                
+      X-Angle =           1.5912                                                                                
+      Y-Angle =          90.1457                                                                                
+      Z-Angle =          91.5845                                                                                
+    Straight. =                                         0.023059                                                
+
+Point: C5_L1(ID:27, From 1 Pts.) 
+     Coord. X =        -0.979314                                                                                
+     Coord. Y =         0.002098                                                                                
+     Coord. Z =         0.099788                                                                                
+
+Point: C5_L2(ID:28, From 1 Pts.) 
+     Coord. X =         0.871481                                                                                
+     Coord. Y =        -0.001164                                                                                
+     Coord. Z =         0.087720                                                                                
+
+Distance: C5_Length(ID:29) between C5_L1(ID:27) and C5_L2(ID:28)
+           SC =         1.850836                                                                                
+           LC =         1.850797                                                                                
+           DX =         1.850794                                                                                
+           DY =        -0.003262                                                                                
+           DZ =        -0.012068                                                                                
+
+Point: C5_W(ID:30, From 1 Pts.) 
+     Coord. X =        -0.008737                                                                                
+     Coord. Y =         0.581999                                                                                
+     Coord. Z =         0.087298                                                                                
+
+Circle: C6_c(ID:31, From 67 Pts.) 
+     Coord. X =       -51.153738                                                                                
+     Coord. Y =        88.035271                                                                                
+     Coord. Z =        -0.020000                                                                                
+     Diameter =         0.229895                                                                                
+       Radius =         0.114947                                                                                
+    Circular. =                                         0.013914                                                
+
+Line: C6_x(ID:32, From 22 Pts.) 
+     Coord. X =       -51.281379                                                                                
+     Coord. Y =        87.901610                                                                                
+     Coord. Z =        -0.072000                                                                                
+   Angle (XY) =          60.1736                                                                                
+      X-Angle =          60.1736                                                                                
+      Y-Angle =          29.8264                                                                                
+      Z-Angle =          90.0000                                                                                
+    Straight. =                                         0.001384                                                
+
+Point: C6_L1(ID:33, From 1 Pts.) 
+     Coord. X =        -1.022430                                                                                
+     Coord. Y =         0.037050                                                                                
+     Coord. Z =         0.073622                                                                                
+
+Point: C6_L2(ID:34, From 1 Pts.) 
+     Coord. X =         0.898002                                                                                
+     Coord. Y =         0.041283                                                                                
+     Coord. Z =         0.059798                                                                                
+
+Distance: Distance-6(ID:35) between C6_L1(ID:33) and C6_L2(ID:34)
+           SC =         1.920486                                                                                
+           LC =         1.920436                                                                                
+           DX =         1.920432                                                                                
+           DY =         0.004232                                                                                
+           DZ =        -0.013824                                                                                
+
