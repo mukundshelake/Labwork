@@ -1,0 +1,201 @@
+Declare Sub QVBlock_8
+Declare Sub QVBlock_7
+Declare Sub QVBlock_6
+Declare Sub QVBlock_5
+Declare Sub QVBlock_4
+Declare Sub QVBlock_3
+Declare Sub QVBlock_2
+Declare Sub QVBlock_1
+Option Explicit
+
+sub startup
+
+'  *** Display Format ***
+DistanceUnits = MM
+CoordinateMode = CART
+ResolutionMode = DECIMALS_6
+AngleRange = ZERO_TO_360
+AngleUnits = DECIMAL_DEGREES_4
+
+'  *** Measuring Device ***
+MeasuringDevice = QV_VIDEO
+
+'  *** Lens in Use ***
+Lens.Select Label:="1.5X (Z-objective)"
+
+'  *** Results Formatting ***
+Results.ShowFeatureTypeInHdr = TRUE
+Results.ShowFeatureLabelInHdr = TRUE
+Results.ShowFeatureIDInHdr = TRUE
+Results.ShowNumOfPointsInHdr = TRUE
+Results.ShowColumnLabels = TRUE
+Results.FormatColumns ELEMENT, ACTUAL, NOMINAL, DEVIATION, UPTOL, LOWTOL, PASSFAIL
+
+'  *** Results Messages ***
+Results.ShowAlignmentMsg = FALSE
+Results.ShowUnitsChangeMsg = FALSE
+Results.ShowConstructionMsg = FALSE
+Results.ShowErrorMsg = FALSE
+
+'  *** Results Data Reporting ***
+Results.ReportLevel = ALLDATA
+
+'  *** Results Logging ***
+Results.LogFileName = ""
+Results.LogToFile = FALSE
+Results.LogToCOM1 = FALSE
+Results.LogToCOM2 = FALSE
+
+'  *** Part Program Options ***
+BreakOnErrors = TRUE
+ShowImageTools = TRUE
+ShowTravelLimitWarnings = TRUE
+AutoRunSmartRecovery = FALSE
+
+'  *** Smart Recovery Options ***
+Video.SmartRecovery.Focus = TRUE
+Video.SmartRecovery.FocusRange = 1
+Video.SmartRecovery.Lighting = TRUE
+Video.SmartRecovery.LightingRange = 1
+Video.SmartRecovery.ToolPosition = TRUE
+Video.SmartRecovery.ToolPositionRange = 1
+Video.SmartRecovery.ToolAngle = TRUE
+Video.SmartRecovery.ToolAngleRange = 1
+Video.SmartRecovery.EdgeStrength = TRUE
+Video.SmartRecovery.EdgeStrengthRange = 1
+
+'  *** Restore MCS ***
+PCS.RestoreMCS
+
+'  *** Reference Plane ***
+ReferencePlane = XY_PLANE
+
+end sub   'startup
+
+sub Main    'start of main subroutine
+
+call startup
+
+
+Call   QVBlock_1
+Call   QVBlock_2
+Call   QVBlock_3
+Call   QVBlock_4
+Call   QVBlock_5
+Call   QVBlock_6
+Call   QVBlock_7
+Call   QVBlock_8
+
+
+end sub   'Main
+
+
+Private Sub QVBlock_1
+
+
+End Sub   'QVBlock_1
+
+Private Sub QVBlock_2
+
+Measure.Point Label:="Hole1", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=113.281497217, Y:=180.414164390, Z:=31.849418773, Coax:=0.18, Stage:=0.00, Back:=0.18, Front:=0.22, Right:=0.00, Left:=0.00, Angle:=0.00, Color:= qvWhite, NomMag:=0.975000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=114.179209512, Y:=181.702532471, Z:=31.839318773, W:=0.460133600, H:=0.483256032, Angle:=0.000000000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=112.314791108, Y:=179.200610129, Z:=31.855018773, W:=0.368106880, H:=0.316417640, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole1"
+Video.Export "Hole1.bmp",FileType:=1
+
+End Sub   'QVBlock_2
+
+Private Sub QVBlock_3
+
+Measure.Point Label:="Hole2", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=130.654397217, Y:=174.324464390, Z:=31.692318773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=131.678650279, Y:=175.624294201, Z:=31.670818773, W:=0.460133600, H:=0.523527368, Angle:=0.000000000
+
+Video.ChangeToImageContext   X:=130.654397217, Y:=174.334764390, Z:=31.679918773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=129.871694109, Y:=172.977319406, Z:=31.686918773, W:=0.437126920, H:=0.437231648, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole2"
+Video.Export "Hole2.bmp",FileType:=1
+
+End Sub   'QVBlock_3
+
+Private Sub QVBlock_4
+
+Measure.Point Label:="Hole3", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=136.755597217, Y:=175.581864390, Z:=31.695618773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=135.587660175, Y:=174.874648903, Z:=31.655618773, W:=0.787978790, H:=0.857204152, Angle:=0.000000000
+
+Video.ChangeToImageContext   X:=136.753597217, Y:=175.582964390, Z:=31.664518773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=134.424379627, Y:=176.463997410, Z:=31.745318773, W:=0.408368570, H:=0.304911544, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole3"
+Video.Export "Hole3.bmp",FileType:=1
+
+End Sub   'QVBlock_4
+
+Private Sub QVBlock_5
+
+Measure.Point Label:="Hole4", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=141.252097217, Y:=168.219464390, Z:=31.754318773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=141.298581414, Y:=169.847560741, Z:=31.584818773, W:=0.379610220, H:=0.345182880, Angle:=0.000000000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=140.555551000, Y:=166.810211728, Z:=31.599518773, W:=0.241570140, H:=0.270393256, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole4"
+Video.Export "Hole4.bmp",FileType:=1
+End Sub   'QVBlock_5
+
+Private Sub QVBlock_6
+
+Measure.Point Label:="Hole5", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=162.158097217, Y:=156.013164390, Z:=31.608418773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=163.762905835, Y:=156.277241946, Z:=31.462718773, W:=0.264576820, H:=0.230121920, Angle:=0.000000000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=161.197054880, Y:=154.834126398, Z:=31.485718773, W:=0.281831830, H:=0.207109728, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole5"
+Video.Export "Hole5.bmp",FileType:=1
+End Sub   'QVBlock_6
+
+Private Sub QVBlock_7
+
+Measure.Point Label:="Hole6", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=175.822497217, Y:=144.353864390, Z:=31.494518773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=176.823526608, Y:=145.320025504, Z:=31.444618773, W:=0.333596860, H:=0.316417640, Angle:=0.000000000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=175.102881791, Y:=142.766275317, Z:=31.448518773, W:=0.281831830, H:=0.304911544, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole6"
+Video.Export "Hole6.bmp",FileType:=1
+End Sub   'QVBlock_7
+
+Private Sub QVBlock_8
+
+Measure.Point Label:="Hole7", ProjPlane:=NO_PLANE, PointType:=AVERAGE_POINT
+
+Video.ChangeToImageContext   X:=186.379497217, Y:=138.248564390, Z:=31.457418773
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=187.277106640, Y:=139.243427041, Z:=31.443618773, W:=0.316341850, H:=0.368195072, Angle:=0.000000000
+FocusTool.SetMode   FocusType:=SURFACE_ROTATE, Speed:=MED, Range:=3.462603878
+FocusTool.Run   X:=185.429969467, Y:=136.816288268, Z:=31.467518773, W:=0.368106880, H:=0.322170688, Angle:=0.000000000
+Measure.EndMeas
+Results.ReportFeature   Show:=X_ and Y_ and Z_, Tag:="Hole7"
+Video.Export "Hole7.bmp",FileType:=1
+End Sub   'QVBlock_8
