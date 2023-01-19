@@ -8,7 +8,7 @@ Everything that I have used/developed for the lab work.
 * This main folder is named ccording to specific naming scheme Baseplate_Manufacturer_Version_DateOfArrival_NoOfBaseplates, for example Baseplate_MPack_V7_221124_4. This folder (must) contain individual baseplate folders like Baseplate1, Baseplate2 etc. Note that, each baseplate folder must have name starting with 'Baseplate' followed by some unique ID to differentiate it from other baseplates of same batch. 
 * Each baseplate folder must have 2 text files: 'Backside_results.txt' and 'Frontside-results.txt'.
 
-# Steps 
+### Steps 
 1. Install stable branch
 ```
 git clone https://github.com/mukundshelake/Labwork.git
