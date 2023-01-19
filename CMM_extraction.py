@@ -9,7 +9,7 @@ Helper library: Auxillary.py
 Status: 
 To Do: Correct the maximum inscribed circle calculation.
 """
-from config.Auxillary import dist,maxInsc,find_line,shift,check,Features, dist2D, pointLineDist
+from config.Auxillary import Insc,find_line,shift,check,Features, dist2D, pointLineDist
 
 import os
 import argparse
@@ -63,7 +63,7 @@ def DerivedQtts():
     Dict['HoleSlotDist'] = dist2D(Dict['Hole']['X'], Dict['Hole']['Y'], Dict['Slot']['X'], Dict['Slot']['Y'])    
     Dict['HoleToEdge'] = HoleToEdge
     Dict['NotchToEdge'] = NotchToEdge
-    MaxCenter, width = maxInsc([Dict['Hole']['X'], Dict['Hole']['Y']], ptsOnLines, thetas)
+    MaxCenter, width = Insc([Dict['Hole']['X'], Dict['Hole']['Y']], ptsOnLines, thetas)
     Dict['MaxInsc_Circle'] = {'MaxInsc_Center':MaxCenter, 'Width':width}
     Dict['KaptGlueThickness'] = round(KapGlueTSum/6,3)
     Dict['CopperEdgeDistance'] = round(CopperEdgeDSum/6,3)
@@ -184,7 +184,13 @@ for i in range(len(baseplateList)):
     for j in range(6):
         Notchi = 'Notch'+str(j+1)
         worksheet.write(row+8+j,col+i,Data[bplate][Notchi]['Diameter'])
-    for j in range(6):
-        MBi = 'MB'+str(j+1)
-        worksheet.write(row+14+j,col+i,Data[bplate][MBi]['Diameter'])
+    for k in range(6):
+        MBi = 'MB'+str(k+1)
+        worksheet.write(row+14+k,col+i,Data[bplate][MBi]['Diameter'])
+    for l in range(19):
+        Fi = 'F'+str(l+1)
+        worksheet.write(row+22+l,col+i,Data[bplate][Fi]['Diameter'])
+    for m in range(6):
+        Notchi = 'Notch'+str(m+1)
+        worksheet.write(row+45+m,col+i,Data[bplate]['NotchToEdge'][Notchi])  
 workbook.close()
