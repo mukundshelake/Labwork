@@ -6,7 +6,7 @@ Everything that I have used/developed for the lab work.
 ## HGCAL baseplate QA/QC: 
 * The QA/QC studies are performed on the HGCAL baseplates as a part on ongoing R&D. This measurements are performed by an optical Coordinate Measuring Machine (CMM) and the output is stored in a folder (for one batch of baseplates), referred as 'main folder' henceforth. 
 * This main folder is named ccording to specific naming scheme Baseplate_Manufacturer_Version_DateOfArrival_NoOfBaseplates, for example Baseplate_MPack_V7_221124_4. This folder (must) contain individual baseplate folders like Baseplate1, Baseplate2 etc. Note that, each baseplate folder must have name starting with 'Baseplate' followed by some unique ID to differentiate it from other baseplates of same batch. 
-* Each baseplate folder must have 2 text files: 'Backside_results.txt' and 'Frontside-results.txt'.
+* Each baseplate folder must have 2 text files: 'Backside_results.txt' and 'Frontside_results.txt'.
 
 ### Steps 
 1. Install stable branch
