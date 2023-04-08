@@ -45,25 +45,25 @@ def DerivedQtts():
     CopperEdgeDSum = 0.0
 
     for i in range(6):
-        edge = 'Edge'+str(i+1)
-        BEi = 'BE'+str(i+1)
-        KEi = 'KE'+str(i+1)
-        FEi = 'FE'+str(i+1)
-        coutDepth = 'C'+str(i+1)+'_Depth' 
-        Notchi = 'Notch' + str(i+1)
-        HoleToEdge[edge] = pointLineDist([Dict['Hole']['X'], Dict['Hole']['Y']], [Dict[BEi]['X'], Dict[BEi]['Y']], Dict[BEi]['Angle'])
+        edge = 'Line: Edge'+str(i+1)
+        BEi = 'Line: BE'+str(i+1)
+        KEi = 'Line: KE'+str(i+1)
+        FEi = 'Line: FE'+str(i+1)
+        coutDepth = 'Distance: C'+str(i+1)+'_Depth' 
+        Notchi = 'Circle: Notch' + str(i+1)
+        HoleToEdge[edge] = pointLineDist([Dict['Circle: Hole']['X'], Dict['Circle: Hole']['Y']], [Dict[BEi]['X'], Dict[BEi]['Y']], Dict[BEi]['Angle'])
         thetas.append(Dict[BEi]['Angle'])
         ptsOnLines.append([Dict[BEi]['X'], Dict[BEi]['Y']])
         KapGlueTSum += Dict[coutDepth]['DZ']
-        CopperEdgeDSum += pointLineDist([Dict['Hole']['X'], Dict['Hole']['Y']], [Dict[FEi]['X'], Dict[FEi]['Y']], Dict[FEi]['Angle'])-pointLineDist([Dict['Hole']['X'], Dict['Hole']['Y']], [Dict[KEi]['X'], Dict[KEi]['Y']], Dict[KEi]['Angle'])
-        Notchi = 'Notch' + str(i+1)
-        BEi = 'BE'+str((i+1)%2+i)
+        CopperEdgeDSum += pointLineDist([Dict['Circle: Hole']['X'], Dict['Circle: Hole']['Y']], [Dict[FEi]['X'], Dict[FEi]['Y']], Dict[FEi]['Angle'])-pointLineDist([Dict['Circle: Hole']['X'], Dict['Circle: Hole']['Y']], [Dict[KEi]['X'], Dict[KEi]['Y']], Dict[KEi]['Angle'])
+        Notchi = 'Circle: Notch' + str(i+1)
+        BEi = 'Line: BE'+str((i+1)%2+i)
         NotchToEdge[Notchi] = pointLineDist([Dict[Notchi]['X'], Dict[Notchi]['Y']], [Dict[BEi]['X'], Dict[BEi]['Y']], Dict[BEi]['Angle'])
         
-    Dict['HoleSlotDist'] = dist2D(Dict['Hole']['X'], Dict['Hole']['Y'], Dict['Slot']['X'], Dict['Slot']['Y'])    
+    Dict['HoleSlotDist'] = dist2D(Dict['Circle: Hole']['X'], Dict['Circle: Hole']['Y'], Dict['Ellipse: Slot']['X'], Dict['Ellipse: Slot']['Y'])    
     Dict['HoleToEdge'] = HoleToEdge
     Dict['NotchToEdge'] = NotchToEdge
-    MaxCenter, width = Insc([Dict['Hole']['X'], Dict['Hole']['Y']], ptsOnLines, thetas)
+    MaxCenter, width = Insc([Dict['Circle: Hole']['X'], Dict['Circle: Hole']['Y']], ptsOnLines, thetas)
     Dict['MaxInsc_Circle'] = {'MaxInsc_Center':MaxCenter, 'Width':width}
     Dict['KaptGlueThickness'] = round(KapGlueTSum/6,3)
     Dict['CopperEdgeDistance'] = round(CopperEdgeDSum/6,3)
@@ -148,6 +148,12 @@ for bplate in baseplateList:
             for param in shift[key]:
                 featureValue = linecache.getline(path,LineRef[bplate][value]+shift[key][param]['down']+1).split()[shift[key][param]['right']]
                 Dict[value][param]=round(float(featureValue),3)
+                
+                ## To printout the results of specific baseplate.
+                # if bplate == Baseplate_10:
+                #     print(bplate,key,value,param,featureValue)
+
+                ## To printout the results of all baseplates
                 print(bplate,key,value,param,featureValue)
     DerivedQtts() # Step 7: Calculate the derived quantities
     Data[bplate] = Dict
@@ -162,7 +168,7 @@ with open(os.path.join(outputDir,'Data.txt'), 'w') as fp:
 print('================= Data stored in the Data.txt in the input folder ===============')
 
 # step 9: Filling up a excel sheet.
-
+"""
 workbook = xlsxwriter.Workbook(os.path.join(outputDir,'Baseplate_Survey.xlsx'))
 worksheet = workbook.add_worksheet()
 row = 5
@@ -194,3 +200,4 @@ for i in range(len(baseplateList)):
         Notchi = 'Notch'+str(m+1)
         worksheet.write(row+45+m,col+i,Data[bplate]['NotchToEdge'][Notchi])  
 workbook.close()
+"""
