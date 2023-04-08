@@ -8,15 +8,15 @@ import math
 
 
 Features = {
-              'Plane' :   ['Flatness_Plane'],
-              'Circle':   ['Hole','Notch1','Notch2','Notch3','Notch4','Notch5','Notch6',
-                            'MB1','MB2','MB3','MB4','MB5','MB6','F1','F2','F3','F4','F5','F6','F7',
-                            'F8','F9','F10','F11','F12','F13','F14','F15','F16','F17','F18','F19'],
-              'Ellipse':  ['Slot'],
-              'Line'  :   ['BE1','BE2','BE3','BE4','BE5','BE6','FE1','FE2','FE3','FE4','FE5','FE6',
-                            'KE1','KE2','KE3','KE4','KE5','KE6'],
-              'Distance': ['Hole_Depth','Slot_Depth','C1_Depth','C2_Depth','C3_Depth',
-                            'C4_Depth','C5_Depth','C6_Depth']
+              'Plane' :   ['Plane: Flatness_Plane'],
+              'Circle':   ['Circle: Hole','Circle: Notch1','Circle: Notch2','Circle: Notch3','Circle: Notch4','Circle: Notch5','Circle: Notch6',
+                            'Circle: MB','Circle: MB','Circle: MB3','Circle: MB4','Circle: MB5','Circle: MB6','Circle: F1','Circle: F2','Circle: F3','Circle: F4','Circle: F5','Circle: F6','Circle: F7',
+                            'Circle: F8','Circle: F9','Circle: F10','Circle: F11','Circle: F12','Circle: F13','Circle: F14','Circle: F15','Circle: F16','Circle: F17','Circle: F18','Circle: F19'],
+              'Ellipse':  ['Ellipse: Slot'],
+              'Line'  :   ['Line: BE1','Line: BE2','Line: BE3','Line: BE4','Line: BE5','Line: BE6','Line: FE1','Line: FE2','Line: FE3','Line: FE4','Line: FE5','Line: FE6',
+                            'Line: KE1','Line: KE2','Line: KE3','Line: KE4','Line: KE5','Line: KE6'],
+              'Distance': ['Distance: Hole_Depth','Distance: Slot_Depth','Distance: C1_Depth','Distance: C2_Depth','Distance: C3_Depth',
+                            'Distance: C4_Depth','Distance: C5_Depth','Distance: C6_Depth']
 }
 
 shift = { 'Line':    {'X':{'down':1,'right':3},'Y':{'down':2,'right':3},
