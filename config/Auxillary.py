@@ -30,6 +30,12 @@ shift = { 'Line':    {'X':{'down':1,'right':3},'Y':{'down':2,'right':3},
           }
 
 def find_line(word,file_name):
+  """
+  Finds the linenumber a word FIRST appears in
+  :param word: string containing the word to look for
+  :param file_name: string containing file address to open
+  :return: integer containing the first line number the word appears in
+  """
     with open(file_name, 'r') as fp:
         lines = fp.readlines()
         for row in lines:
@@ -38,6 +44,12 @@ def find_line(word,file_name):
         return -1
 
 def check(path):
+  """
+  Checks for and prints missing features from the features dict
+  :param path: string containing full pathname to combined results.txt
+  :return: Dict containing line numbers for each feature {feature:line_no}
+  TODO Return and handle missing features instead of just printing
+  """
     Line  = {}
     for value in Features.values():
       for feature in value:
@@ -50,11 +62,22 @@ def check(path):
     return Line
 
 def dist2D(x1,y1,x2,y2):
+  """
+  :param x1,y1, x2, y2: x and y coordinates of the first and second points respectively
+  :return: Float containing 2 Dimensional distances between the 2 given points
+  """
   d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
   return round(d,3)
 
-def pointLineDist(pt, ptOnLine, LineSlope):
-  a = math.tan(math.radians(LineSlope))
+def pointLineDist(pt, ptOnLine, LineAngle):
+  """
+  Calculates the distance of a point from a line
+  :param pt: list containing coords of the point from which distance is to be calculated
+  :param ptONLine: list containing coords of the point that lies on the line
+  :param LineAngle: float containing angle of the line wrt X axis?
+  :return: Float containing the shortest distance between point and the given line
+  """
+  a = math.tan(math.radians(LineAngle))
   b = -1
   c = ptOnLine[1] - a*ptOnLine[0]
   d = abs((a * pt[0] + b * pt[1] + c)) / (math.sqrt(a * a + b * b))
@@ -62,6 +85,15 @@ def pointLineDist(pt, ptOnLine, LineSlope):
 
 
 def Insc(center, ptsOnLines, thetas):
+  """
+  Try to inscribe a circle of the maximum size by scanning near the central region a lot of 
+  times and insribing circles of maximum sizes
+  :param center: list containing the center of the hexagon as measured by CMM
+  :param ptsONLine: list containing points on line of each of the six edges
+  :param thetas: list containing angles of each of the six edges
+  :return: ? Center of the calculated maximum inscribed circle?
+  TODO Implement proper circle inscribing algorithm using midpoint of each edge
+  """
   delta = 0.001
   steps = 1000
   R = 50.0
