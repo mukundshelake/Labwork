@@ -6,7 +6,7 @@ Created on Mon Oct 10 22:32:14 2022
 """
 import math
 
-
+#TODO Center of slot using new method should be calculated using the new Slot measurements
 Features = {
               'Plane' :   ['Flatness_Plane'],
               'Circle':   ['Hole','Notch1','Notch2','Notch3','Notch4','Notch5','Notch6',
