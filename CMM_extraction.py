@@ -20,8 +20,7 @@ import math
 import xlsxwriter
 import numpy as np
 
-
-
+#TODO make code less monolithic and more modular. Remove global variables
 
 def DerivedQtts():
     """
@@ -36,6 +35,7 @@ def DerivedQtts():
     ## InterMB
     ## InterFid
     ## Centers
+    #TODO This would probably be better implemented as a constructor
     """
     HoleToEdge = {}
     NotchToEdge = {}
@@ -145,7 +145,7 @@ for bplate in baseplateList:
             if LineRef[bplate][value] < 0:
                 continue
             Dict[value] = {}
-            for param in shift[key]:
+            for param in shift[key]: 
                 featureValue = linecache.getline(path,LineRef[bplate][value]+shift[key][param]['down']+1).split()[shift[key][param]['right']]
                 Dict[value][param]=round(float(featureValue),3)
                 print(bplate,key,value,param,featureValue)
@@ -162,6 +162,7 @@ with open(os.path.join(outputDir,'Data.txt'), 'w') as fp:
 print('================= Data stored in the Data.txt in the input folder ===============')
 
 # step 9: Filling up a excel sheet.
+#TODO xlsxwriter has issues with some systems. convert to pyopenxl. Maybe have to use pandas for the dataframe operations before exporting
 
 workbook = xlsxwriter.Workbook(os.path.join(outputDir,'Baseplate_Survey.xlsx'))
 worksheet = workbook.add_worksheet()
@@ -194,3 +195,8 @@ for i in range(len(baseplateList)):
         Notchi = 'Notch'+str(m+1)
         worksheet.write(row+45+m,col+i,Data[bplate]['NotchToEdge'][Notchi])  
 workbook.close()
+
+
+# Maybe a bit object oriented? that will allow for essentially the same class with 3 different subclasses
+# to be used for baseplates and two different partial baseplates with some changes. Will also prevent the 
+# data to be stored in a single massive dictionary.
